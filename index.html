@@ -1,0 +1,112 @@
+<!doctype html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=2.0, maximum-scale=2.0, minimum-scale=2.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>My Pokedex</title>
+  <body style="background-color:rgb(224, 154, 213);text-align:center">
+    <h1>Complete Pokedex.</h1>
+</head>
+
+
+  <div class="pokedex">
+    <div class="lc">
+      <div class="lc__main-section-container">
+        <div class="lc__main-section">
+            <div class="main-section__black">
+              <div class="main-screen hide">
+                <div class="screen__header">
+                  <span class="poke-name"></span>
+                  <span class="poke-id"></span>
+                </div>
+                <div class="screen__image">
+                  <img src="" class="poke-front-image" alt="front">
+                  <img src="" class="poke-back-image" alt="back">
+                </div>
+               
+                <div class="screen__description">
+                  <div class="stats__types">
+                    <span class="poke-type-one"></span>
+                    <span class="poke-type-two"></span>
+                  </div>
+                  <div class="screen__stats">
+                    <p class="stats__weight">
+                      weight: <span class="poke-weight"></span>
+                    </p>
+                    <p class="stats__height">
+                      height: <span class="poke-height"></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <div class="lc__controllers">
+          </div>
+        </div>
+      </div>
+  
+        <style>
+          .dropdown {
+            position: relative;
+            display: inline-block;
+          }
+          
+          .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            padding: 12px 16px;
+            z-index: 1;
+          }
+          
+          .dropdown:hover .dropdown-content {
+            display: block;
+          }
+  
+          </style>
+          <div class="dropdown">
+            <span>Pokemon Index (Click Here)</span>
+            <div class="dropdown-content">
+              <div class="rc__black">
+                <div class="rc__screen">
+                  <div class="list-item"></div>
+                  <div class="list-item"></div>
+                  <div class="list-item"></div>
+                  <div class="list-item"></div>
+                  <div class="list-item"></div>
+                  <div class="list-item"></div>
+                  <div class="list-item"></div>
+                  <div class="list-item"></div>
+                  <div class="list-item"></div>
+                  <div class="list-item"></div>
+                  <div class="list-item"></div>
+                  <div class="list-item"></div>
+                  <div class="list-item"></div>
+                  <div class="list-item"></div>
+                  <div class="list-item"></div>
+                  <div class="list-item"></div>
+                  <div class="list-item"></div>
+                  <div class="list-item"></div>
+                  <div class="list-item"></div>
+                  <div class="list-item"></div>
+                  <div class="list-item"></div>
+                  <div class="list-item"></div>
+                  <div class="list-item"></div>
+                  <div class="list-item"></div>
+                  <div class="list-item"></div>
+                </div>
+              </div>
+              <div class="rc__buttons">
+                <div class="left-button">Prev</div> 
+                <div class="right-button">Next</div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </body>
+        <script src="app.js"></script>
+</body>  
